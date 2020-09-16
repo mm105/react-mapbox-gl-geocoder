@@ -24,7 +24,7 @@ class Geocoder extends Component {
         return null;
     }
 
-    onChange = (event, val) => {
+    onChange = val => {
         const {
             timeout,
             queryParams,
